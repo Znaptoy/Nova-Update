@@ -1,10 +1,11 @@
+/* mensajecontacto.html*/
+
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 body {
@@ -22,7 +23,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    border: 5px solid yellow;
     border-radius: 100px;
     
 
@@ -64,20 +64,4 @@ body {
 }
 .descri {
     font-size: 20px;
-}
-
-.a {
-    text-decoration:dashed;
-}
-
-@media (max-width : 768px){
-    .content{
-        width: 350px;
-        height: 430px;
-    }
-        .texto{
-            font-size: 15px;
-        }
-
-
 }

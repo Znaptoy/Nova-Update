@@ -13,4 +13,4 @@ $mensaje = $_POST['mensaje'];
 $header = "Enviado desde formulario de contacto en localhost";
 $mensajeCompleto = "\n Nombre: " . $nombre . "\n" . "Email: " . $email . "\n" . "Telefono :" . $telefono . "\n" . "Compañia :" . $compañia . "\n". "Mensaje :" . $mensaje;
 mail($destino, $asunto, $mensajeCompleto, $header);
-header('Location: pagina3.html');
+header('Location: contacto.html');
